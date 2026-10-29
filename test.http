@@ -1,0 +1,35 @@
+# ### Sign Up
+# POST http://localhost:5000/api/auth/signup
+# Content-Type: application/json
+
+# {
+#   "name": "Ahmed",
+#   "email": "ahmed@test.com",
+#   "password": "Test1234",
+#   "confirmPassword": "Test1234"
+# }
+
+# ### Login
+# POST http://localhost:5000/api/auth/login
+# Content-Type: application/json
+
+# {
+#   "email": "ahmed@test.com",
+#   "password": "Test1234"
+# }
+
+# ### Forgot Password
+# POST http://localhost:5000/api/auth/forgot-password
+# Content-Type: application/json
+
+# {
+#   "email": "ahmed@test.com"
+# }
+
+
+POST http://localhost:5000/api/auth/forgot-password
+Content-Type: application/json
+
+{
+  "email": "ahmed@test.com"
+}
